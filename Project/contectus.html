@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="contact-us">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="contectus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu () "></i>
+        </nav>
+        <h1>Contact Us</h1>
+        </section>
+        <section class="contact-us">
+            <div class=" row">
+            <div class=" contact-col">
+            </div>
+            </div>
+            <!-- <div class=" contact-col"></div>
+            </section>
+            <section class="contact-us"> -->
+<!-- <div class=" row">
+<div class=" contact-col">
+<div> <i class="fa fa-home"></i> -->
+    <span> <h2>You can call us on </h2>
+    <h3>+91 1234567890</h3></span>
+<span> <h2>If you face any issue mail at</h2>
+<h3>suppot@gskuniversity.com</h3> </span>
+</div>
+
+    <!-----Footer----->
+    
+    <section class="Footer">
+        <h4>ABOUT US</h4>
+        <p>GSK University is a world-leading centre of learning, teaching and research
+            <br>and the oldest university in the English-speaking world.</p>
+        <div class="icons">
+            <i class="fa fa-Facebook"></i>
+            <i class="fa fa-Twitter"></i>
+            <i class="fa fa-Instagram"></i>
+            <i class="fa fa-Linkedin"></i>
+        </div>
+        <p>Made by Deepak and Rahul </p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+    
+
+</body>
+
+</html>
